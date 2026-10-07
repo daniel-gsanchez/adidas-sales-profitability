@@ -1,0 +1,29 @@
+# Local only (not part of the public repo)
+CLAUDE.md
+.claude/
+
+# Data: downloaded with kagglehub, never committed
+data/*
+!data/README.md
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Windows / OneDrive
+Thumbs.db
+desktop.ini

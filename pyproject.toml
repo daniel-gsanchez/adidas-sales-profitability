@@ -1,0 +1,9 @@
+[project]
+name = "adidas-sales-profitability"
+version = "1.0.0"
+description = "Adidas US sales: data audit, market segmentation and an out-of-time operating-margin model"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
